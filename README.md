@@ -13,7 +13,7 @@ O código go utilizado nesse projeto fica na pasta printMessage e somente exibe 
 
 ## Docker
 Nesse projeto foi criado foi criado um arquivo DockerFile que se encontra na raiz do projeto.
-É possível alterar o fonte do Go sem a necessidade da instalação do Golang na máquina para isso use um container com Go e faça o bind com a pasta do projeto abaixo segue um exemplo de como fazer isso.
+É possível alterar o fonte do Go sem a necessidade da instalação do Golang na máquina para isso use um container com Go e faça o bind com a pasta do projeto abaixo segue um exemplo de como fazer isso de dentro da pasta desafio-go.
 ```
 docker run -it --rm -v $(pwd)/printMessage:/go/printMessage golang bash
 ```
